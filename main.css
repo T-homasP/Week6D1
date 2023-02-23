@@ -32,6 +32,7 @@ span{
     margin: 10px;
     font-size: 30px;
     padding-right: 200px;
+    width: 100%;
 }
 button{
     width: fit-content;
@@ -68,8 +69,8 @@ hr.dark{
 }
 button.dark{
     color: rgb(255, 255, 255);
-    background-color: rgb(57, 60, 77);
+    background-color: rgb(73, 73, 77);
 }
 button.dark:hover{
-    background-color: rgb(118, 112, 133);
+    background-color: rgb(126, 125, 128);
 }

@@ -73,3 +73,24 @@ const storeItems = [
         details: 'Enjoy for hours'
     },
 ];
+
+let prices = $('span.price');
+let item = $('span.item');
+let description = $('span.descr');
+
+$(storeItems).each(function (index) {
+    $(prices[index]).text(`$ ${this.price}`)
+    
+});
+
+
+$(storeItems).each(function (index) {
+    $(item[index]).text(`${this.name}`)
+    
+});
+
+
+$(storeItems).each(function (index) {
+    $(description[index]).text(`${this.details}`)
+    
+});
