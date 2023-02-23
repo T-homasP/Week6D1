@@ -1,0 +1,75 @@
+body{
+    margin:0 5% 0 5% ;
+    background-color: rgb(248, 243, 238);
+}
+hr{
+    margin:0;
+    padding:0;
+    width: 100px;
+    display: inline-block;
+    height:2px;
+    border: 2px ;
+    background-color:black
+}
+h1{
+    padding:0;
+    margin-bottom: 1px;
+    font-size: 50px;
+}
+*{
+    font-family: sans-serif;
+}
+div{
+    margin-top: 20px;
+    border: 2px groove rgb(160, 160, 160);
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px;
+    background-color: rgb(231, 226, 226);
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    margin: 10px;
+    font-size: 30px;
+    padding-right: 200px;
+}
+button{
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding:20px;
+    border-color: rgb(155, 155, 155);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.darkkk:hover{
+    transition: .3s;
+    background-color: rgb(145, 145, 145);
+    
+}
+
+
+
+div.dark{
+    background-color: rgb(73, 73, 77);
+}
+
+body.dark{
+    background-color: rgb(55, 55, 56);
+}
+h1.dark{
+    color:beige
+}
+span.dark{
+    color:beige
+}
+hr.dark{
+    background-color: beige;
+}
+button.dark{
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 60, 77);
+}
+button.dark:hover{
+    background-color: rgb(118, 112, 133);
+}
